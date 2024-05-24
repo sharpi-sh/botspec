@@ -16,7 +16,7 @@ function HomepageHeader() {
           {siteConfig.title}
         </Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
-       <p>BotSpec is a file, similar to robots.txt, located in the root directory of a domain. It serves as a signpost for assistant AI bots, providing structured information about available actions, API endpoints, and documentation links. This allows bots to efficiently discover and access resources on a server.</p>
+       <p>BotSpec is a file, similar to robots.txt, located in the root directory of a domain. It serves as a signpost for assistant AI bots, providing structured information about available actions, API endpoints, and documentation links. This allows AI assistant agents to efficiently discover and access resources on a server.</p>
       </div>
     </header>
   );
