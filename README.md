@@ -1,4 +1,41 @@
-# botspec
-BotSpec is a file, similar to robots.txt, located in the root directory of a domain. It serves as a signpost for assistant AI bots, providing structured information about available actions, API endpoints, and documentation links. This allows bots to efficiently discover and access resources on a server.
+# Website
 
-To contribute make changes to the template files in this directory. Changes merged to master will be deployed to botspec.org
+This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+
+### Installation
+
+```
+$ yarn
+```
+
+### Local Development
+
+```
+$ yarn start
+```
+
+This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+
+### Build
+
+```
+$ yarn build
+```
+
+This command generates static content into the `build` directory and can be served using any static contents hosting service.
+
+### Deployment
+
+Using SSH:
+
+```
+$ USE_SSH=true yarn deploy
+```
+
+Not using SSH:
+
+```
+$ GIT_USER=<Your GitHub username> yarn deploy
+```
+
+If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
